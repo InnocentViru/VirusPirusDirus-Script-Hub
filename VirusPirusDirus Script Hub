@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "VirusPirusDirus ScriptHub",
+   Name = "VirusPirusDirus ScriptHub Version 1",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "More Scripts In The Future!",
    LoadingSubtitle = "by innocent (VirusPirusDirus)",
@@ -78,5 +78,46 @@ local Button = Tab3:CreateButton({
    Name = "Pshade Ultimate (Shaders Script)",
    Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/randomstring0/pshade-ultimate/refs/heads/main/src/cd.lua'))()
+end,
+})
+local Button = Tab2:CreateButton({
+   Name = "Super Ring Parts v6 By Lukas",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/chesslovers69/Super-ring-parts-v6/refs/heads/main/Bylukaslol"))()
+end,
+})
+local Button = Tab2:CreateButton({
+   Name = "FE Gravity Inversion",
+   Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/96XzjEiK"))()
+end,
+})
+local Button = Tab:CreateButton({
+   Name = "Cokka Hub (🔑 Has Key System🔑)",
+   Callback = function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+end,
+})
+local Button = Tab3:CreateButton({
+   Name = "Infinite Yield",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end,
+})
+local Button = Tab3:CreateButton({
+   Name = "Nameless Admin",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))()
+end,
+})
+local Button = Tab2:CreateButton({
+   Name = "Blackhole script",
+   Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-black-hole-18879"))()
+end,
+})
+local Tab4 = Window:CreateTab("BackDoor Scanners", 4483362458) -- Title, Image
+local Button = Tab4:CreateButton({
+   Name = "Coming Soon!",
+   Callback = function()
 end,
 })
