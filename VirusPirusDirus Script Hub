@@ -177,3 +177,9 @@ loadstring(game:HttpGet("https://pastebin.com/raw/wmudgFpR"))()
 end
 })
 local Tab5 = Window:CreateTab("brookhaven", "map") -- title, image
+local Button = Tab5:CreateButton({
+   Name = "Chaos Hub",
+   Callback = function()
+loadstring(game:HttpGet(base64.decode("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1Zlbm9tLWRldlgvQ2hhb3NIdWIvbWFpbi9sb2FkZXIubHVh")))();
+end
+})
