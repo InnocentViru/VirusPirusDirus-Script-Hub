@@ -183,3 +183,9 @@ local Button = Tab5:CreateButton({
 loadstring(game:HttpGet(base64.decode("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1Zlbm9tLWRldlgvQ2hhb3NIdWIvbWFpbi9sb2FkZXIubHVh")))();
 end
 })
+local Button = Tab5:CreateButton({
+   Name = "Coquette Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Daivd977/Deivd999/refs/heads/main/pessal"))()
+end
+})
