@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "VirusPirusDirus ScriptHub Version 1.3 (Up To Date)",
+   Name = "VirusPirusDirus ScriptHub Version 1.5 (Up To Date)",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "More Scripts In The Future!",
    LoadingSubtitle = "by innocent (VirusPirusDirus)",
@@ -112,7 +112,7 @@ end,
 local Button = Tab2:CreateButton({
    Name = "Blackhole script",
    Callback = function()
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-black-hole-18879"))()
+loadstring(game:HttpGet("https://pastefy.app/pYhER1z4/raw"))()
 end,
 })
 local Tab4 = Window:CreateTab("BackDoor Scanners", "wrench") -- Title, Heart
@@ -147,7 +147,7 @@ Rayfield:Notify({
    Image = "Heart",
 })
 local Button = Tab:CreateButton({
-   Name = "Mukuro Hub",
+   Name = "Mukuro Hub (🔑Has Key System🔑)",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/QuartyzScript/main/Loader.lua"))()
 end
@@ -187,5 +187,49 @@ local Button = Tab5:CreateButton({
    Name = "Coquette Hub",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Daivd977/Deivd999/refs/heads/main/pessal"))()
+end
+})
+local Button = Tab5:CreateButton({
+   Name = "La Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Aham5la/Laal/refs/heads/main/Protected_5054203762517405.lua.txt"))()
+end
+})
+local Button = Tab3:CreateButton({
+   Name = "Dark Dex",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/memeenjoyer43/darkdex/refs/heads/main/script"))()
+end
+})
+local Tab6 = Window:CreateTab("Fe Animations", "terminal") -- title, image
+local Button = Tab6:CreateButton({
+   Name = "Animation Gui",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ocfi/aqua-hub-is-a-skid-lol/refs/heads/main/animatrix"))()
+end
+})
+local Button = Tab6:CreateButton({
+   Name = "AquaMatrix",
+   Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitFin/AquaMatrix/refs/heads/AquaMatrix/AquaMatrix"))()
+end
+})
+local Button = Tab6:CreateButton({
+   Name = "Fe scp 096",
+   Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/YsJgITXR/raw"))()
+end
+})
+local Button = Tab6:CreateButton({
+   Name = "Fe Seraphic Blade",
+   Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/59mJGQGe/raw"))() --Anim
+end
+})
+local Button = Tab6:CreateButton({
+   Name = "Fe ShapeShifter",
+   Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/2C3cRXXp/raw"))()
 end
 })
