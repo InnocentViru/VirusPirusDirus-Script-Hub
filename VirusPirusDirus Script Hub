@@ -287,3 +287,9 @@ local player = game.Players.LocalPlayer
    end
    end,
 })
+local Button = Tab2:CreateButton({
+   Name = "Tp Unanchored T (TUT)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/evilionx3/blackholetool/refs/heads/main/skibidi.lua"))() 
+end
+})
