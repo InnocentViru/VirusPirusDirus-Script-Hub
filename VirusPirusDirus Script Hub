@@ -251,3 +251,9 @@ local Button = Tab2:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Lukashub-coder/Lukas-magnet/refs/heads/main/Lukas%20magnet"))()
 end
 })
+local Button = Tab3:CreateButton({
+   Name = "Forsakation Hub (Go To Their Discord!)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CyberNinja103/brodwa/refs/heads/main/ForsakationHub"))()
+end
+})
