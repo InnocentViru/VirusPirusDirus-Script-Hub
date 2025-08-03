@@ -293,3 +293,9 @@ local Button = Tab2:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/evilionx3/blackholetool/refs/heads/main/skibidi.lua"))() 
 end
 })
+local Button = Tab3:CreateButton({
+   Name = "Coordinates Script (Credits: VantaXock)",
+   Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/RrNU3XWN/raw"))()
+end
+})
