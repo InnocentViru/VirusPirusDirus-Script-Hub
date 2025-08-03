@@ -1,8 +1,8 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "VirusPirusDirus ScriptHub Version 1.5 (Up To Date)",
-   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   Name = "VirusPirusDirus ScriptHub Version 1.6",
+   Icon = "box", -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "More Scripts In The Future!",
    LoadingSubtitle = "by innocent (VirusPirusDirus)",
    ShowText = "Script Hub", -- for mobile users to unhide rayfield, change if you'd like
@@ -237,11 +237,17 @@ local Button = Tab6:CreateButton({
    Name = "Fe Animation Gui",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/alifSTARZ/HERMAN-KONTOL-ANIMATION/refs/heads/main/Animation%20script%20by%20xploit%20force"))()
-end
+end,
 })
 local Button = Tab3:CreateButton({
    Name = "Funny Gravity Lay Script",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Underssky/GravityLayScript/refs/heads/main/MainGravityLay.txt"))()
 end,
+})
+local Button = Tab2:CreateButton({
+   Name = "Lukas Magnetic Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Lukashub-coder/Lukas-magnet/refs/heads/main/Lukas%20magnet"))()
+end
 })
