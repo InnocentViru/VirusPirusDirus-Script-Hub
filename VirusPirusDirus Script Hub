@@ -251,9 +251,39 @@ local Button = Tab2:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Lukashub-coder/Lukas-magnet/refs/heads/main/Lukas%20magnet"))()
 end
 })
-local Button = Tab3:CreateButton({
-   Name = "Forsakation Hub (Go To Their Discord!)",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CyberNinja103/brodwa/refs/heads/main/ForsakationHub"))()
-end
+local Tab7 = Window:CreateTab("Player", "user") -- Title, Image
+
+local Slider = Tab7:CreateSlider({
+   Name = "WalkSpeed",
+   Range = {16, 250},
+   Increment = 10,
+   Suffix = "Speed",
+   CurrentValue = 10,
+   Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+local player = game.Players.LocalPlayer
+   local character = player.Character
+   local humanoid = character:FindFirstChildWhichIsA("Humanoid")
+
+   if humanoid then
+       humanoid.WalkSpeed = Value
+   end
+   end,
+})
+local Slider = Tab7:CreateSlider({
+   Name = "Jump Power",
+   Range = {50, 1000},
+   Increment = 10,
+   Suffix = "Jump Power",
+   CurrentValue = 10,
+   Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+local player = game.Players.LocalPlayer
+   local character = player.Character
+   local humanoid = character:FindFirstChildWhichIsA("Humanoid")
+
+   if humanoid then
+       humanoid.JumpPower = Value
+   end
+   end,
 })
