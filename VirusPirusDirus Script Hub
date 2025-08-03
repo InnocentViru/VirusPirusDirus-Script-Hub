@@ -233,3 +233,9 @@ local Button = Tab6:CreateButton({
 loadstring(game:HttpGet("https://pastefy.app/2C3cRXXp/raw"))()
 end
 })
+local Button = Tab6:CreateButton({
+   Name = "Fe Animation Gui",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/alifSTARZ/HERMAN-KONTOL-ANIMATION/refs/heads/main/Animation%20script%20by%20xploit%20force"))()
+end
+})
