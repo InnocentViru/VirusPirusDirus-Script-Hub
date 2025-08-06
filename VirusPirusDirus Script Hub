@@ -303,5 +303,5 @@ local Button = Tab3:CreateButton({
    Name = "Sirius",
    Callback = function()
 loadstring(game:HttpGet('https://sirius.menu/script'))();
-enx
+end
 })
