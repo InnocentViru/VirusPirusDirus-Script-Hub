@@ -1,9 +1,9 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "VirusPirusDirus ScriptHub Version 1.6",
+   Name = "VirusPirusDirus ScriptHub Version 1.8",
    Icon = "award", -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "More Scripts In The Future!",
+   LoadingTitle = "Welcome",
    LoadingSubtitle = "by innocent (VirusPirusDirus)",
    ShowText = "Script Hub", -- for mobile users to unhide rayfield, change if you'd like
    Theme = "Amethyst", -- Check https://docs.sirius.menu/rayfield/configuration/themes
@@ -298,4 +298,10 @@ local Button = Tab3:CreateButton({
    Callback = function()
 loadstring(game:HttpGet("https://pastefy.app/RrNU3XWN/raw"))()
 end
+})
+local Button = Tab3:CreateButton({
+   Name = "Sirius",
+   Callback = function()
+loadstring(game:HttpGet('https://sirius.menu/script'))();
+enx
 })
