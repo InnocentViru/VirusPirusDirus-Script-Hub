@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "VirusPirusDirus ScriptHub Version 1.9",
+   Name = "VirusPirusDirus ScriptHub Version 1.8",
    Icon = "award", -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Welcome",
    LoadingSubtitle = "by innocent (VirusPirusDirus)",
@@ -135,14 +135,14 @@ loadstring(game:HttpGet("https://gist.githubusercontent.com/jdihdzzzhack/e10f174
 end,
 })
 Rayfield:Notify({
-   Title = "VirusPirusDirus Script Hub Loaded successfully",
-   Content = "Hi!",
+   Title = "Warning:",
+   Content = "If the script button you executed says an error please keep clicking until it finally executes.",
    Duration = 6.5,
    Image = "bell"
 })
 Rayfield:Notify({
-   Title = "Thanks For Using My Script!",
-   Content = "This Script Has Alot Of Others Scripts!",
+   Title = "Note:",
+   Content = "Some Scripts may have to be retired because of callback error and i cant fix It :(",
    Duration = 6.5,
    Image = "Heart",
 })
@@ -206,13 +206,6 @@ local Button = Tab6:CreateButton({
    Name = "Animation Gui",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ocfi/aqua-hub-is-a-skid-lol/refs/heads/main/animatrix"))()
-end
-})
-local Button = Tab6:CreateButton({
-   Name = "AquaMatrix",
-   Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitFin/AquaMatrix/refs/heads/AquaMatrix/AquaMatrix"))()
 end
 })
 local Button = Tab6:CreateButton({
