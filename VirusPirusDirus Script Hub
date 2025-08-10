@@ -1,12 +1,12 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "VirusPirusDirus ScriptHub Version 1.8",
+   Name = "VirusPirusDirus ScriptHub Version 1.9",
    Icon = "award", -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Welcome",
    LoadingSubtitle = "by innocent (VirusPirusDirus)",
    ShowText = "Script Hub", -- for mobile users to unhide rayfield, change if you'd like
-   Theme = "Amber Glow", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "Amethyst", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
 
@@ -136,15 +136,15 @@ end,
 })
 Rayfield:Notify({
    Title = "Warning:",
-   Content = "If the script button you executed says an error please keep clicking until it finally executes.",
+   Content = "Thanks For Using My Script!",
    Duration = 6.5,
-   Image = "bell"
+   Image = "Heart"
 })
 Rayfield:Notify({
    Title = "Note:",
-   Content = "Some Scripts may have to be retired because of callback error and i cant fix It :(",
+   Content = "Big update to 2.0 soon! planning on adding multiple games!",
    Duration = 6.5,
-   Image = "Heart",
+   Image = "bell",
 })
 local Button = Tab:CreateButton({
    Name = "Mukuro Hub (🔑Has Key System🔑)",
@@ -296,5 +296,24 @@ local Button = Tab3:CreateButton({
    Name = "Sirius",
    Callback = function()
 loadstring(game:HttpGet('https://sirius.menu/script'))();
+end
+})
+local Tab8 = Window:CreateTab("Slap Battles", "hand") -- Title, Image
+local Button = Tab8:CreateButton({
+   Name = "Alchemist Abuser (credits DonjoSX)",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/Alchemist%20abuser.lua'))()
+end
+})
+local Button = Tab8:CreateButton({
+   Name = "Flowers Glove (credits DonjoSX)",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Umbrella-Scripter/Slap-Battles/refs/heads/main/F.L.O.W.E.R.lua'))()
+end
+})
+local Button = Tab8:CreateButton({
+   Name = "GodHuman V2 (Credits Incognito Scripts)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/GodHuman", true))()
 end
 })
